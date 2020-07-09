@@ -2,7 +2,7 @@
 #include <string>
 using namespace  std;
 int main(){
-    string nombre;//iniciando el programa saludando al uaurio
+    string nombre;//iniciando el programa saludando al usuario
     cout<<"ingrese su nombre: "<<endl;
     getline(cin, nombre);
     cout<<"Hola "<<nombre<<endl;
