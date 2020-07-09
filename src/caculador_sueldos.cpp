@@ -2,9 +2,13 @@
 #include <string>
 using namespace  std;
 int main(){
+    string nombre;
+    cout<<"ingrese su nombre: "<<endl;
+    getline(cin, nombre);
+    cout<<"Hola "<<nombre<<endl;
     char rangosueldo;
     double salario, aumento, nuevoSalario;
-    cout<<"Indicar a que letra desea acceder "<<endl;
+    cout<<"Indique a que letra desea acceder "<<endl;
     cout<<"a- De 0 a 5,000 lempiras "<<endl;
     cout<<"b- De 5001 a 9,999 lempiras"<<endl;
     cout<<"c- De 10000 a 14,999 "<<endl;
